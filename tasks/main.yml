@@ -1,7 +1,7 @@
 ---
 - name: Check whether Hugo is installed
-  ansible.builtin.shell: hugo version
-  register: HUGO_INSTALLED
+  ansible.builtin.command: hugo version
+  register: hugo_installed
   changed_when: false
   ignore_errors: true
   environment:
@@ -16,10 +16,10 @@
     gpgcheck: yes
     gpgkey: |
       https://download.copr.fedorainfracloud.org/results/daftaupe/hugo/pubkey.gpg
-  when: HUGO_INSTALLED is failed
+  when: hugo_installed is failed
 
 - name: Install Hugo
   ansible.builtin.package:
     name: hugo
     state: present
-  when: HUGO_INSTALLED is failed
+  when: hugo_installed is failed

@@ -1,9 +1,9 @@
-[![](https://github.com/ansible-roles-matsumura/hugo/workflows/build/badge.svg)](https://github.com/ansible-roles-matsumura/hugo/actions?query=workflow%3Abuild)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ansible-roles-mamono210/hugo/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ansible-roles-mamono210/hugo/tree/main)
 
 Role Description
 =========
 
-Installs [Hugo](https://gohugo.io) for CentOS7/CentOS8.
+Installs [Hugo](https://gohugo.io) for CentOS7/Stream8.
 
 Requirements
 ------------
