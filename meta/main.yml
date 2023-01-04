@@ -6,7 +6,7 @@ galaxy_info:
   description: hugo installation for Linux.
   galaxy_tags: []
   license: "license (BSD, MIT)"
-  min_ansible_version: 6
+  min_ansible_version: 7.1.0
   role_name: hugo
   platforms:
     - name: EL
