@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ansible-roles-mamono210/hugo/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ansible-roles-mamono210/hugo/tree/main)
+# This repository is deprecated, no more changes shall be made to this repository.
 
 Role Description
 =========
